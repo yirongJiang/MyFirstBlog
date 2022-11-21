@@ -1,0 +1,124 @@
+.Wrapper {
+  background: #ffefba;
+  height: 100vh;
+  background: -webkit-linear-gradient(
+    to right,
+    rgb(255, 239, 186),
+    rgb(255, 255, 255)
+  );
+  background: linear-gradient(
+    to right,
+    rgb(255, 239, 186),
+    rgb(255, 255, 255)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+li {
+  list-style-type: none;
+}
+img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.imgs {
+  position: absolute;
+  top: 0px;
+  left: 35%;
+  transform: translate(-50%, 0%);
+}
+.imgs li {
+  position: absolute;
+  width: 430px;
+  top: 195px;
+  transition: 0.5s;
+}
+.imgs li img {
+  width: 470px;
+  height: 320px;
+}
+.imgs .one {
+  transform: translateX(-300px) scale(0.9);
+  z-index: 1;
+  opacity: 0.8;
+}
+.imgs .two {
+  width: 430px;
+  height: 360px;
+  z-index: 2;
+}
+.imgs .three {
+  transform: translateX(300px) scale(0.9);
+  z-index: 1;
+  opacity: 0.8;
+}
+.imgs .four {
+  z-index: 0;
+  opacity: 0.8;
+  transform: scale(0.9);
+}
+.imgs .five {
+  z-index: 0;
+  opacity: 0.8;
+  transform: scale(0.9);
+}
+.imgs .six {
+  z-index: 0;
+  opacity: 0.8;
+  transform: scale(0.9);
+}
+.imgs .seven {
+  z-index: 0;
+  opacity: 0.8;
+  transform: scale(0.9);
+}
+.imgs .eight {
+  z-index: 0;
+  opacity: 0.8;
+  transform: scale(0.9);
+}
+.imgs .nine {
+  z-index: 0;
+  opacity: 0.8;
+  transform: scale(0.9);
+}
+.imgs .ten {
+  z-index: 0;
+  opacity: 0.8;
+  transform: scale(0.9);
+}
+.imgs .four {
+  z-index: 0;
+  opacity: 0.8;
+  transform: scale(0.9);
+}
+.imgs .eleven {
+  z-index: 0;
+  opacity: 0.8;
+  transform: scale(0.9);
+}
+.imgs .twelve {
+  z-index: 0;
+  opacity: 0.8;
+  transform: scale(0.9);
+}
+
+.list {
+  position: absolute;
+  top: 600px;
+  bottom: -25px;
+  left: 35%;
+  z-index: 777;
+}
+.list li {
+  float: left;
+  width: 27px;
+  height: 7px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 50%;
+  margin: 0 6px;
+  cursor: pointer;
+}
+.list .change {
+  background-color: rgba(216, 208, 219, 0.921);
+}

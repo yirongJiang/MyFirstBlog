@@ -1,0 +1,11 @@
+.ant-layout {
+    height: 100vh;
+}
+
+.layout .logo {
+    color: #fff;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    font-size: 32px;
+}

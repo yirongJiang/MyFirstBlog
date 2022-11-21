@@ -1,0 +1,125 @@
+/* index.module.css/less */
+/* cssInJs styled-component */
+
+.comment {
+  background-color: rgb(255, 211, 221);
+  padding: 20px 0 0 10px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.comment-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.username {
+  padding-bottom: 20px;
+  color: gray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: large;
+}
+.sub-username {
+  padding-bottom: 20px;
+  color: gray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: large;
+}
+
+.user-detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.commentButton {
+  width: 100%;
+  height: 80px;
+  margin: 12px 0px;
+  line-height: 70px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 30px;
+  color: gray;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgba(255, 255, 255, 0.958);
+  border: #cca4e3 solid 9px;
+}
+
+.commentButton:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: #a770ef solid 9px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.replyButton {
+  width: 90px;
+  height: 45px;
+  margin-left: 912px;
+  line-height: 9px;
+  padding: 10px;
+  background: #a770ef;  /* fallback for old browsers */      background: -webkit-linear-gradient(to right, rgb(167, 112, 239), rgb(207, 139, 243));  /* Chrome 10-25, Safari 5.1-6 */      background: linear-gradient(to right, rgb(178, 143, 223), rgb(207, 139, 243)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+  border-radius: 25px;
+  text-align: center;
+  border: rgb(234, 191, 201) solid 9px;
+  font-size: 15px;
+  color: gray;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  cursor: pointer;
+}
+
+.replyButton:hover {
+  transition: all 0.3s;
+  background: (
+    to right,
+    rgb(232, 163, 175),
+    rgb(207, 126, 79)
+  ) !important ; /* Chrome 10-25, Safari 5.1-6 */
+  cursor: pointer;
+}
+
+.subReplyButton {
+  width: 90px;
+  height: 45px;
+  line-height: 9px;
+  padding: 10px;
+  background: #b17cf7e3;  /* fallback for old browsers */      background: -webkit-linear-gradient(to right, rgba(171, 122, 236, 0.867), rgb(207, 139, 243));  /* Chrome 10-25, Safari 5.1-6 */      background: linear-gradient(to right, rgb(178, 143, 223), rgb(207, 139, 243)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+  border-radius: 25px;
+  text-align: center;
+  border: rgb(234, 191, 201) solid 9px;
+  font-size: 15px;
+  color: gray;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  cursor: pointer;
+  margin-left: 780px;
+}
+
+.create-time {
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 10px;
+  color: gray;
+}
+
+.sub-create-time {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  color: gray;
+}
+.content {
+  padding-bottom: 20px;
+  font-size: bold;
+}
+
+.comment {
+  background-color: #a06de1be;
+  padding: 6px;
+}
+.sub-comment {
+  padding-left: 50px;
+  margin: 6px 6px 6px 80px;
+  background-color: #b986d6;
+}

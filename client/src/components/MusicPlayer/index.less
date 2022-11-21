@@ -1,0 +1,47 @@
+.music-player {
+  position: fixed;
+  left: 0;
+  bottom: 30px;
+  z-index: 9999;
+  width: 200px;
+  .button {
+    cursor: pointer;
+    width: 66px;
+    height:66px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+    background-color: rgb(164, 79, 243);
+    text-align: center;
+    line-height: 66px;
+    border:solid 6px rgba(255, 227, 227, 0.853) ;
+    color: white;
+    font-weight: bold;
+  }
+  .button:hover{
+    background-color:pink;
+    border:solid 6px white ;
+    opacity: 0.8;
+    cursor: pointer;
+    transition-delay: 0.1s;
+    color: black;
+    font-weight: bold;
+  }
+
+  slider {
+
+  }
+
+  audio {
+  }
+}
+@keyframes colorChange {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}

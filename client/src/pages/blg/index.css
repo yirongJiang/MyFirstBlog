@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sec1_circle1 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  border-radius: 50%;
+  top: 10%;
+  right: 15%;
+}
+
+.sec1_circle2 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(247, 255, 174, 0.3)
+  );
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  border-radius: 50%;
+  bottom: 20%;
+  left: 5%;
+}
+
+.sec1_circle3 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(248, 202, 202, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  border-radius: 60%;
+  bottom: -10%;
+  right: 35%;
+}
+
+.wrapper{
+  min-height: 1200px;
+  background: #9796f0;  /* fallback for old browsers */     
+  background: -webkit-linear-gradient(to right, rgb(151, 150, 240), rgb(251, 199, 212));  /* Chrome 10-25, Safari 5.1-6 */      background: linear-gradient(to right, rgb(151, 150, 240), rgb(251, 199, 212)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+}
+
+/* 第一栏 nav区域*/
+
+main {
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+  height: 1050px;
+  border-radius: 25px;
+  /* background-image: linear-gradient(
+    45deg,
+    rgba(163, 255, 231, 0.6),
+    rgba(255, 193, 179, 0.6)
+  ); */
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  overflow: hidden;
+  backdrop-filter: blur(0.2rem);
+}
+
+.main_left {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 0 25px 25px 0;
+  overflow: hidden;
+  flex: 7;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* .wrapper:hover {
+  transition: 0.5s;
+  box-shadow: 0 5px 10px rgba(52, 5, 34, 0.516);
+} */
+
+.main_left .pagination{
+  width:100%;
+  background-color: #f3f9f100;
+  text-align: center;
+  padding-top: 13px;
+  position: fixed;
+  bottom: 20px;
+}
+
+.left_content {
+  width: 98%;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  columns: 2;
+  column-gap: 30px;
+  padding: 39px;
+}
+
+
+
+.left_content .content-wrapper {
+  width: 100%;
+  break-inside: avoid;
+  margin-bottom: 30px;
+}
+
+.content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* 将对象作为弹性伸缩盒子模型显示 */
+  display: -webkit-box;
+  /* 限制在一个块元素显示的文本的行数 */
+  /* -webkit-line-clamp 其实是一个不规范属性，使用了WebKit的CSS扩展属性，该方法适用于WebKit浏览器及移动端；*/
+  -webkit-line-clamp: 2;
+  /* 设置或检索伸缩盒对象的子元素的排列方式 */
+  -webkit-box-orient: vertical;
+}
+
+.main_right {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  height: 100%;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.main_right .current {
+  width: 100%;
+  flex: 1;
+  text-align: center;
+  transition: 0.5s ease-in-out;
+}
+
+.myPhoto {
+  flex: 3;
+  width: 100%;
+  padding: 15px auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 12px;
+}
+
+
+
+.myPhoto .a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  line-height: 100%;
+  color: #426696;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.myPhoto .img {
+  background-image: url("./img/幸福地圆圆儿.webp");
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin: 10px auto;
+  cursor: inherit;
+}
+
+.myPhoto p {
+  margin: 10px auto;
+}
+
+.main_right .current:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 25px;
+}
+
+.main_right .Tag {
+  border-bottom: solid gray;
+  margin: 15px;
+  margin: 0 auto;
+  padding-top: 12px;
+}
+
+.main_right .right_tag {
+  padding: 12px;
+}
+
+.tags {
+  display: inline-block;
+  padding:6px 12px;
+  flex: 1;
+  transition: 0.5s ease-in-out;
+  color: #426696;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.tags:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  background-color: pink;
+}
+
+.hot-article {
+  margin: 10px auto;
+  padding-top: 12px;
+}
+
+
+.newArticles {
+  display: flex;
+  height: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  justify-content: left;
+  padding: 12px;
+  align-items: center;
+  color: #426696;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.newArticles:hover {
+  transition: 0.3s ease-in;
+  height: 40px;
+  color: #426696;
+  background-color: pink;
+}
+
+.newArticles .Link {
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

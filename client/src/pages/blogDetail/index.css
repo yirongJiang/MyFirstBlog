@@ -1,0 +1,123 @@
+.sec2 {
+  width: 100%;
+  padding: 62px 202px;
+  min-height: 100vh;
+  background: #a770ef;  /* fallback for old browsers */      background: -webkit-linear-gradient(to right, rgb(167, 112, 239), rgb(207, 139, 243), rgb(253, 185, 155));  /* Chrome 10-25, Safari 5.1-6 */      background: linear-gradient(to right, rgb(178, 143, 223), rgb(207, 139, 243), rgb(253, 185, 155)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+  background-size: 100%;
+}
+
+.container_rapper {
+  /* width: 90%; */
+  margin-left: 30px;
+  margin-top: 66px;
+  padding: 32px;
+ background-color: rgba(245, 242, 240, 0.1);
+}
+
+.container_rapper .back{
+  text-align: center;
+  width: 99px;
+  height: 52px;
+  line-height: 32px;
+  position: fixed;
+  margin: 10px;
+  left: 58px;
+  top: 100px;
+  border-radius:25px;
+  z-index: 999;
+  background-color:#a770ef;
+  backdrop-filter: blur(3px);
+  opacity: 0.7;
+  border: rgb(234, 191, 201) solid 9px;
+  cursor: pointer;
+  
+}
+
+.sec2_main {
+  color: rgba(255, 111, 145,0.2);
+  background-color: #cca4e3;
+  margin: 0 auto;
+  padding: 66px;
+  height: 100vh;
+  backdrop-filter: blur(30px);
+}
+
+.top {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+
+.top h1 {
+  color: rgb(132, 125, 125);
+}
+ .top h3{
+  padding-left: 600px;
+  padding-bottom: 10px;
+  color: rgb(132, 125, 125);
+}
+
+/* .sec2_circle1 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(203, 255, 255, 0.8),
+    rgba(237, 255, 254, 0.3)
+  );
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  border-radius: 10%;
+  bottom: 30%;
+  left: 20%;
+}
+.sec2_circle2 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(206, 255, 228, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  border-radius: 10%;
+  top: 30%;
+  right: 10%;
+  transform: rotate(45deg);
+}
+.sec2_circle3 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 225, 225, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  border-radius: 10%;
+  bottom: -5%;
+  right: 40%;
+} */
+
+.navigator {
+  display: flex;
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  height: 168px;
+  justify-content: space-around;
+  position: fixed;
+  top: 278px;
+  left: 130px;
+}
+.left-navigator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #714a8857;
+}
